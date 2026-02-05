@@ -1,0 +1,40 @@
+{
+  "name": "sw-enginnering-claude-skills",
+  "version": "1.1.0",
+  "description": "A collection of software engineering skills for Claude Code CLI",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "ai",
+    "software-engineering",
+    "code-review",
+    "architecture",
+    "testing",
+    "token-usage",
+    "cost-tracking"
+  ],
+  "author": "Konstantinos Tsolakidis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "claude-token-cost": "./scripts/token-cost.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install-skills.js",
+    "uninstall-skills": "node scripts/uninstall-skills.js",
+    "list-skills": "node scripts/list-skills.js",
+    "token-cost": "node scripts/token-cost.js"
+  },
+  "files": [
+    "skills",
+    "scripts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
