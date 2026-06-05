@@ -1,15 +1,8 @@
 ---
 name: senior-architect
-description: >
-  Senior software architect for technical application design. Produces system architecture,
-  database schemas, API designs, project structures, and infrastructure plans with full-stack
-  scope. Actively challenges requirements, identifies risks, and proposes alternatives.
-  Preferred stack: React, TypeScript, Node.js, PostgreSQL, WebSockets — but adapts to
-  project needs. Trigger with "/senior-architect" or when the user needs to design a new
-  application, plan a system's technical architecture, make technology stack decisions,
-  design database schemas, define API contracts, structure a project, or plan infrastructure
-  and deployment. Also use when evaluating existing architecture for scaling, performance,
-  or restructuring decisions.
+description: |
+  Senior software architect for technical application design. Produces system architecture, database schemas, API designs, project structures, and infrastructure plans with full-stack scope. Actively challenges requirements, identifies risks, and proposes alternatives. Preferred stack: React, TypeScript, Node.js, PostgreSQL, WebSockets — but adapts to project needs. Also use when evaluating existing architecture for scaling, performance, or restructuring decisions.
+  TRIGGERS: "/senior-architect", "system architecture", "design an application", "technical architecture", "tech stack decision", "database schema", "API contract", "project structure", "infrastructure", "deployment", "scaling", "restructuring"
 ---
 
 # Senior Architect

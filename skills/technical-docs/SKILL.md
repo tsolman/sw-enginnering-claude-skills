@@ -1,6 +1,8 @@
 ---
 name: technical-docs
-description: Generate comprehensive documentation from codebases including READMEs, API references, Architecture Decision Records (ADRs), inline code comments, and module documentation. Use this skill when you need to analyze code and produce technical documentation in Markdown or code-specific formats (JSDoc, docstrings). Triggers include requests for "documentation", "docs", "README", "API docs", "ADR", "architecture decision", "document this", "explain this code", or "generate documentation".
+description: |
+  Generate comprehensive documentation from codebases including READMEs, API references, Architecture Decision Records (ADRs), inline code comments, and module documentation. Use this skill when you need to analyze code and produce technical documentation in Markdown or code-specific formats (JSDoc, docstrings).
+  TRIGGERS: "documentation", "docs", "README", "API docs", "ADR", "architecture decision", "document this", "explain this code", "generate documentation"
 ---
 
 # Technical Docs

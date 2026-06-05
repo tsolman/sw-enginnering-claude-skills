@@ -134,11 +134,6 @@ npm update sw-enginnering-claude-skills
 
 The postinstall script will automatically overwrite existing skills with the updated versions.
 
-This will guide you through creating a properly structured skill with:
-- SKILL.md with frontmatter
-- Optional references folder
-- Proper triggers and descriptions
-
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE) for details.

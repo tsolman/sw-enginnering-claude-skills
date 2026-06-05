@@ -1,24 +1,8 @@
 ---
 name: senior-engineer
-description: >
-  Senior full-stack software engineer with expertise in TypeScript (Node.js, React), Rust,
-  and modern web architectures. Builds end-to-end features with zero-error code following
-  strict best practices. Use when building full-stack features (API + frontend + database),
-  writing TypeScript with strict type safety, developing Rust applications, or when code
-  must be production-ready with proper error handling.
-triggers:
-  - build
-  - implement
-  - create feature
-  - full-stack
-  - TypeScript
-  - React
-  - Node.js
-  - Rust
-  - API
-  - backend
-  - frontend
-  - database
+description: |
+  Senior full-stack software engineer with expertise in TypeScript (Node.js, React), Rust, and modern web architectures. Builds end-to-end features with zero-error code following strict best practices. Use when building full-stack features (API + frontend + database), writing TypeScript with strict type safety, developing Rust applications, or when code must be production-ready with proper error handling.
+  TRIGGERS: "build", "implement", "create feature", "full-stack", "TypeScript", "React", "Node.js", "Rust", "API", "backend", "frontend", "database"
 ---
 
 # Senior Engineer

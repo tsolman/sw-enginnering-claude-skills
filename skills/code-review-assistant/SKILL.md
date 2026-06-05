@@ -1,6 +1,8 @@
 ---
 name: code-review-assistant
-description: Comprehensive code review tool for solo engineers. Analyzes code for bugs, security issues, performance problems, and style violations. Triggers on "review", "code review", "PR review", "check my code", "security review", "find bugs".
+description: |
+  Comprehensive code review tool for solo engineers. Analyzes code for bugs, security issues, performance problems, and style violations.
+  TRIGGERS: "review", "code review", "PR review", "check my code", "security review", "find bugs"
 ---
 
 # Code Review Assistant

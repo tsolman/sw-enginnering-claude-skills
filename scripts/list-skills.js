@@ -10,12 +10,27 @@ function extractFrontmatter(content) {
   if (!match) return {};
 
   const frontmatter = {};
-  match[1].split('\n').forEach(line => {
-    const [key, ...valueParts] = line.split(':');
-    if (key && valueParts.length) {
-      frontmatter[key.trim()] = valueParts.join(':').trim();
+  const lines = match[1].split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const keyMatch = line.match(/^(\w[\w-]*):(.*)$/);
+    if (!keyMatch) continue;
+
+    const key = keyMatch[1].trim();
+    const inlineValue = keyMatch[2].trim();
+
+    // Handle YAML block scalars (| literal, > folded): collect indented lines.
+    if (inlineValue === '|' || inlineValue === '>') {
+      const blockLines = [];
+      while (i + 1 < lines.length && (lines[i + 1].trim() === '' || /^\s/.test(lines[i + 1]))) {
+        blockLines.push(lines[++i].trim());
+      }
+      const joiner = inlineValue === '>' ? ' ' : '\n';
+      frontmatter[key] = blockLines.join(joiner).trim();
+    } else {
+      frontmatter[key] = inlineValue;
     }
-  });
+  }
   return frontmatter;
 }
 
